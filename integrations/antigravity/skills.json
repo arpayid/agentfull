@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "path": "skills/git-github"
+    },
+    {
+      "path": "skills/debugging"
+    },
+    {
+      "path": "skills/infrastructure"
+    },
+    {
+      "path": "skills/code-review"
+    },
+    {
+      "path": "skills/project-management"
+    }
+  ]
+}
