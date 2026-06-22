@@ -75,7 +75,10 @@ agentfull/
 │   ├── 24-agent-performance-telemetry.md # Execution analytics and metrics
 │   ├── 25-self-healing-compilers.md   # Runtime compiler error recovery
 │   ├── 26-reactive-event-loops.md     # Async event-driven loop triggers
-│   └── 27-llm-judge-evaluators.md     # Code verification with LLM Judge
+│   ├── 27-llm-judge-evaluators.md     # Code verification with LLM Judge
+│   ├── 28-dynamic-kv-cache-compaction.md # KV-Cache semantic compression
+│   ├── 29-graph-associative-memory.md # Graph DB dependent memory links
+│   └── 30-context-drift-protection.md # Memory and workspace synchronization
 │
 ├── skills/                            # 🛠️ Technical Skills
 │   ├── [60+ Modular Roadmaps]         # Detailed skills configured in skills.json
