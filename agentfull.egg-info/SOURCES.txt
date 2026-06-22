@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+agentfull.egg-info/PKG-INFO
+agentfull.egg-info/SOURCES.txt
+agentfull.egg-info/dependency_links.txt
+agentfull.egg-info/entry_points.txt
+agentfull.egg-info/requires.txt
+agentfull.egg-info/top_level.txt
+cli/__init__.py
+cli/validator.py
+tests/test_validator.py

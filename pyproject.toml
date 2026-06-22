@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentfull"
+version = "0.1.0"
+description = "Agentfull Core principles CLI validator"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+dependencies = [
+    "PyYAML>=6.0",
+]
+
+[project.scripts]
+agentfull-validate = "cli.validator:main"
+
+[tool.setuptools]
+packages = ["cli"]

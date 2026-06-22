@@ -1,0 +1,231 @@
+Metadata-Version: 2.4
+Name: agentfull
+Version: 0.1.0
+Summary: Agentfull Core principles CLI validator
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML>=6.0
+Dynamic: license-file
+
+<div align="center">
+
+# 🧠 Agentfull
+
+### Universal AI Agent Behavior Framework
+
+*Sistem operasi perilaku untuk agen AI — agar model mana pun bisa berpikir, berkomunikasi, dan bekerja dengan standar elite.*
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Model Agnostic](https://img.shields.io/badge/Model-Agnostic-green.svg)](#compatibility)
+[![Platform Agnostic](https://img.shields.io/badge/Platform-Agnostic-purple.svg)](#integrations)
+
+[English](#what-is-agentfull) • [Bahasa Indonesia](#apa-itu-agentfull)
+
+</div>
+
+---
+
+## What is Agentfull?
+
+Agentfull is a comprehensive, open-source framework that documents **how elite AI agents think, communicate, and collaborate** with humans. It's not a model or an API — it's a **behavioral blueprint** that any AI model can adopt to dramatically improve its effectiveness.
+
+Think of it as an **operating system for AI behavior**: plug it into any model (Claude, Gemini, GPT, Llama, Mistral, etc.) on any platform (Antigravity, Cursor, Windsurf, terminal, etc.) and watch the quality of interaction transform.
+
+## Apa itu Agentfull?
+
+Agentfull adalah framework open-source yang mendokumentasikan **cara agen AI elite berpikir, berkomunikasi, dan berkolaborasi** dengan manusia. Ini bukan model atau API — ini adalah **cetak biru perilaku** yang bisa diadopsi oleh model AI mana pun.
+
+Bayangkan ini sebagai **sistem operasi untuk perilaku AI**: pasang ke model mana pun, di platform mana pun, dan lihat kualitas interaksinya berubah secara drastis.
+
+---
+
+## ✨ Key Features
+
+| Feature | Description |
+|---------|-------------|
+| 🧠 **Thinking Framework** | Systematic problem-solving: decomposition, root cause analysis, hypothesis-driven debugging |
+| 💬 **Communication Style** | Interactive, structured output with visual cues, tables, and progressive disclosure |
+| 🤝 **Collaboration Principles** | Human sovereignty, transparent failures, preference adaptation |
+| 🎯 **Decision Making** | When to plan vs act, risk assessment, escalation protocols |
+| 🔧 **Error Handling** | Log reading strategies, isolation techniques, incremental fixes |
+| 📋 **Context Management** | State tracking, preference registry, handoff protocols |
+| 🛠️ **Technical Skills** | Git/GitHub, debugging, infrastructure, code review, project management |
+| 📐 **Behavioral Patterns** | Iterative problem-solving, transparent failure, progressive disclosure |
+| 📝 **Ready-to-use Templates** | Progress reports, error diagnoses, change summaries, risk analyses |
+| 🔌 **Platform Integrations** | Pre-built configs for Antigravity, Cursor, and generic system prompts |
+
+---
+
+## 📁 Repository Structure
+
+```
+agentfull/
+├── core/                              # 🧠 Core Framework (START HERE)
+│   ├── 01-thinking-framework.md       # How to think & solve problems
+│   ├── 02-communication-style.md      # Interactive output delivery
+│   ├── 03-collaboration-principles.md # Human-AI collaboration
+│   ├── 04-decision-making.md          # Decision-making framework
+│   ├── 05-error-handling.md           # Error diagnosis & recovery
+│   ├── 06-context-management.md       # Context & state management
+│   ├── 10-security-boundaries.md      # Credential protection & safe CLI
+│   ├── 11-multi-agent-coordination.md # Tasks orchestration & delegation
+│   ├── 12-environment-sandbox.md      # Sandboxing & dependencies isolation
+│   ├── 13-behavioral-guardrails.md    # Infinite loop & anomaly prevention
+│   ├── 14-parallel-rlef.md            # Async execution feedback
+│   ├── 15-metaprompting-loop.md       # Self-correction & context pruning
+│   ├── 16-model-routing.md            # Dynamic routing for agentic tasks
+│   ├── 17-agent-benchmarks-landscape.md # Taxonomy and evaluation standards
+│   ├── 18-agentic-loop-architectures.md # State-of-the-art loop blueprints
+│   ├── 19-model-context-protocol.md   # MCP integration standards
+│   ├── 20-episodic-memory-retrieval.md # Cross-session state persistence
+│   ├── 21-token-budgeting-financials.md # Financial API ceiling controls
+│   ├── 22-dynamic-hitl-negotiation.md # Runtime authorization negotiation
+│   ├── 23-self-hosted-sandboxing.md   # Isolated MicroVM execution
+│   └── 24-agent-performance-telemetry.md # Execution analytics and metrics
+│
+├── skills/                            # 🛠️ Technical Skills
+│   ├── [60+ Modular Roadmaps]         # Detailed skills configured in skills.json
+│   ├── git-github/SKILL.md
+│   ├── debugging/SKILL.md
+│   ├── infrastructure/SKILL.md
+│   ├── code-review/SKILL.md
+│   └── project-management/SKILL.md
+│
+├── patterns/                          # 📐 Behavioral Patterns
+│   ├── iterative-problem-solving.md
+│   ├── transparent-failure.md
+│   ├── progressive-disclosure.md
+│   ├── risk-assessment.md
+│   └── user-preference-adaptation.md
+│
+├── templates/                         # 📋 Output Templates
+│   ├── progress-report.md
+│   ├── error-diagnosis.md
+│   ├── change-summary.md
+│   ├── risk-analysis.md
+│   └── implementation-plan.md
+│
+├── integrations/                      # 🔌 Platform Configs
+│   ├── antigravity/                   # Google Antigravity (AGY)
+│   ├── cursor/                        # Cursor IDE
+│   └── generic/                       # Universal system prompt
+│
+└── examples/                          # 📚 Case Studies
+    ├── ci-debugging-session.md
+    ├── infrastructure-migration.md
+    └── collaborative-planning.md
+```
+
+---
+
+## 🚀 Quick Start
+
+### Option 1: Platform Integration (Recommended)
+
+**For Antigravity (AGY):**
+```bash
+# Copy rules to your global config
+cp integrations/antigravity/AGENTS.md ~/.gemini/config/AGENTS.md
+```
+
+**For Cursor:**
+```bash
+# Copy rules to your project root
+cp integrations/cursor/.cursorrules /path/to/your/project/.cursorrules
+```
+
+**For any AI chat:**
+```
+Copy the contents of integrations/generic/system-prompt.md
+and paste it as your system prompt or custom instructions.
+```
+
+### Option 2: Reference Reading
+
+Point your AI agent to read the `core/` directory. The 6 files there contain the complete behavioral framework. Most models will adapt their behavior after reading these files.
+
+### Option 3: Cherry-Pick
+
+Browse the repository and adopt only the parts that resonate with you:
+- Need better error communication? → Read `core/05-error-handling.md`
+- Want structured output? → Read `core/02-communication-style.md`
+- Need decision frameworks? → Read `core/04-decision-making.md`
+
+---
+
+## 🔄 Compatibility
+
+Agentfull is designed to work with **any** AI model and **any** platform:
+
+### Models Tested
+| Model | Status | Notes |
+|-------|--------|-------|
+| Claude (Opus, Sonnet) | ✅ Excellent | Strong reasoning alignment |
+| Gemini (Ultra, Pro) | ✅ Excellent | Great structured output |
+| GPT-4o / GPT-4.1 | ✅ Excellent | Good instruction following |
+| Llama 3+ | ✅ Good | May need stronger prompting |
+| Mistral / Mixtral | ✅ Good | Works well with system prompts |
+
+### Platforms Tested
+| Platform | Integration | File |
+|----------|-------------|------|
+| Google Antigravity | Native | `integrations/antigravity/` |
+| Cursor IDE | Native | `integrations/cursor/` |
+| Windsurf | System Prompt | `integrations/generic/` |
+| ChatGPT / Claude.ai | Custom Instructions | `integrations/generic/` |
+| Terminal / API | System Prompt | `integrations/generic/` |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Agentfull is a living document — it evolves as AI capabilities grow.
+
+### How to Contribute
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/new-pattern`)
+3. **Write** your contribution following the existing style (bilingual, actionable, with examples)
+4. **Submit** a Pull Request
+
+### What We're Looking For
+
+- 🆕 New behavioral patterns
+- 🌍 Translations to other languages
+- 🔌 Integrations for more platforms
+- 📚 Real-world case studies (anonymized)
+- 🐛 Improvements to existing content
+
+---
+
+## 📖 Philosophy
+
+> *"Sebuah model AI yang cerdas bukan hanya yang bisa menjawab dengan benar, tapi yang bisa berkolaborasi dengan elegan."*
+>
+> *"An intelligent AI model is not just one that answers correctly, but one that collaborates elegantly."*
+
+Agentfull is built on the belief that **how** an AI communicates is just as important as **what** it knows. A model with perfect knowledge but poor communication is barely useful. A model with good knowledge and excellent communication is transformative.
+
+The framework captures patterns from the most advanced AI systems:
+- **Deep reasoning** from frontier models (multi-step logic, hypothesis testing)
+- **Structured communication** that respects human cognitive load
+- **Collaborative intelligence** that amplifies human capabilities
+- **Honest transparency** that builds trust over time
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) — use it freely, modify it, share it.
+
+---
+
+<div align="center">
+
+**Built with 🧠 by [Arpayid](https://github.com/arpayid)**
+
+*Making AI agents better, one behavior at a time.*
+
+</div>
