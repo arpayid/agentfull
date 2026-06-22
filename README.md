@@ -139,7 +139,7 @@ and paste it as your system prompt or custom instructions.
 
 ### Option 2: Reference Reading
 
-Point your AI agent to read the `core/` directory. The 6 files there contain the complete behavioral framework. Most models will adapt their behavior after reading these files.
+Point your AI agent to read the `core/` directory. The 30 files there contain the complete SOTA behavioral framework. Most models will adapt their behavior after reading these files.
 
 ### Option 3: Cherry-Pick
 
@@ -157,10 +157,10 @@ Agentfull is designed to work with **any** AI model and **any** platform:
 ### Models Tested
 | Model | Status | Notes |
 |-------|--------|-------|
-| Claude (Opus, Sonnet) | ✅ Excellent | Strong reasoning alignment |
-| Gemini (Ultra, Pro) | ✅ Excellent | Great structured output |
-| GPT-4o / GPT-4.1 | ✅ Excellent | Good instruction following |
-| Llama 3+ | ✅ Good | May need stronger prompting |
+| Claude (Opus, Sonnet) | ✅ Excellent | Claude 4.8 / Sonnet 3.5 1M context SOTA |
+| Gemini (Ultra, Pro) | ✅ Excellent | Gemini 3.5 2M context SOTA |
+| GPT-5.5 / o3 | ✅ Excellent | GPT-5.5 Reasoning & Computer use SOTA |
+| Llama 3.1 / 4 | ✅ Good | Open-source SOTA |
 | Mistral / Mixtral | ✅ Good | Works well with system prompts |
 
 ### Platforms Tested
