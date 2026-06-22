@@ -78,7 +78,8 @@ agentfull/
 │   ├── 27-llm-judge-evaluators.md     # Code verification with LLM Judge
 │   ├── 28-dynamic-kv-cache-compaction.md # KV-Cache semantic compression
 │   ├── 29-graph-associative-memory.md # Graph DB dependent memory links
-│   └── 30-context-drift-protection.md # Memory and workspace synchronization
+│   ├── 30-context-drift-protection.md # Memory and workspace synchronization
+│   └── 31-agentic-coding-standards.md # SOTA code output standards & minimised diffs
 │
 ├── skills/                            # 🛠️ Technical Skills
 │   ├── [60+ Modular Roadmaps]         # Detailed skills configured in skills.json
@@ -139,7 +140,7 @@ and paste it as your system prompt or custom instructions.
 
 ### Option 2: Reference Reading
 
-Point your AI agent to read the `core/` directory. The 30 files there contain the complete SOTA behavioral framework. Most models will adapt their behavior after reading these files.
+Point your AI agent to read the `core/` directory. The 31 files there contain the complete SOTA behavioral framework. Most models will adapt their behavior after reading these files.
 
 ### Option 3: Cherry-Pick
 
