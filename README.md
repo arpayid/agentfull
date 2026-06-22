@@ -65,7 +65,8 @@ agentfull/
 │   ├── 14-parallel-rlef.md            # Async execution feedback
 │   ├── 15-metaprompting-loop.md       # Self-correction & context pruning
 │   ├── 16-model-routing.md            # Dynamic routing for agentic tasks
-│   └── 17-agent-benchmarks-landscape.md # Taxonomy and evaluation standards
+│   ├── 17-agent-benchmarks-landscape.md # Taxonomy and evaluation standards
+│   └── 18-agentic-loop-architectures.md # State-of-the-art loop blueprints
 │
 ├── skills/                            # 🛠️ Technical Skills
 │   ├── [60+ Modular Roadmaps]         # Detailed skills configured in skills.json
