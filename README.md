@@ -63,7 +63,9 @@ agentfull/
 │   ├── 12-environment-sandbox.md      # Sandboxing & dependencies isolation
 │   ├── 13-behavioral-guardrails.md    # Infinite loop & anomaly prevention
 │   ├── 14-parallel-rlef.md            # Async execution feedback
-│   └── 15-metaprompting-loop.md       # Self-correction & context pruning
+│   ├── 15-metaprompting-loop.md       # Self-correction & context pruning
+│   ├── 16-model-routing.md            # Dynamic routing for agentic tasks
+│   └── 17-agent-benchmarks-landscape.md # Taxonomy and evaluation standards
 │
 ├── skills/                            # 🛠️ Technical Skills
 │   ├── git-github/SKILL.md
