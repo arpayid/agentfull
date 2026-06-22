@@ -79,7 +79,16 @@ agentfull/
 │   ├── 28-dynamic-kv-cache-compaction.md # KV-Cache semantic compression
 │   ├── 29-graph-associative-memory.md # Graph DB dependent memory links
 │   ├── 30-context-drift-protection.md # Memory and workspace synchronization
-│   └── 31-agentic-coding-standards.md # SOTA code output standards & minimised diffs
+│   ├── 31-agentic-coding-standards.md # SOTA code output standards & minimised diffs
+│   ├── 32-continuous-integration-behavior.md # CI/CD runner execution & timeout mitigation
+│   ├── 33-multimodal-visual-debugging.md # Screen capture & CSS/Figma alignment validation
+│   ├── 34-agent-consensus-debate.md # Multi-agent consensus debate resolution protocol
+│   ├── 35-interactive-learning-loops.md # In-context reinforcement learning & feedback loops
+│   ├── 36-semantic-plan-caching.md # Semantic plan reusability & vector DB caching
+│   ├── 37-privacy-preserving-ops.md # PII masking & zero-knowledge execution templates
+│   ├── 38-inter-agent-protocols.md # RESTful/WebSocket inter-agent communication protocols
+│   ├── 39-observability-replay.md # Long-term trace storage & execution replay analytics
+│   └── 40-rag-context-injection.md # Dynamic RAG context injection & token degradation mitigation
 │
 ├── skills/                            # 🛠️ Technical Skills
 │   ├── [60+ Modular Roadmaps]         # Detailed skills configured in skills.json
