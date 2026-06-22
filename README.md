@@ -72,7 +72,10 @@ agentfull/
 │   ├── 21-token-budgeting-financials.md # Financial API ceiling controls
 │   ├── 22-dynamic-hitl-negotiation.md # Runtime authorization negotiation
 │   ├── 23-self-hosted-sandboxing.md   # Isolated MicroVM execution
-│   └── 24-agent-performance-telemetry.md # Execution analytics and metrics
+│   ├── 24-agent-performance-telemetry.md # Execution analytics and metrics
+│   ├── 25-self-healing-compilers.md   # Runtime compiler error recovery
+│   ├── 26-reactive-event-loops.md     # Async event-driven loop triggers
+│   └── 27-llm-judge-evaluators.md     # Code verification with LLM Judge
 │
 ├── skills/                            # 🛠️ Technical Skills
 │   ├── [60+ Modular Roadmaps]         # Detailed skills configured in skills.json
