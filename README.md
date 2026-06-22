@@ -44,6 +44,9 @@ Bayangkan ini sebagai **sistem operasi untuk perilaku AI**: pasang ke model mana
 | 📐 **Behavioral Patterns** | Iterative problem-solving, transparent failure, progressive disclosure |
 | 📝 **Ready-to-use Templates** | Progress reports, error diagnoses, change summaries, risk analyses |
 | 🔌 **Platform Integrations** | Pre-built configs for Antigravity, Cursor, and generic system prompts |
+| 🤖 **Multi-Agent Consensus & Protocols** | Structured debate protocols and standard inter-agent communication APIs (RFC-level) |
+| 🔒 **Privacy-Preserving & RAG Ops** | Autonomous PII masking, Zero-Knowledge templates, and token-efficient dynamic RAG injection |
+| 🧪 **Autonomous CI & Visual Debugging** | Automated runner timeout mitigation, test suite orchestration, and VLM-based visual regressions auditing |
 
 ---
 
