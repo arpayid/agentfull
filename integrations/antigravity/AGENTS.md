@@ -11,7 +11,7 @@ Any agent reading this will adopt elite thinking and communication patterns.
 
 ## 💬 Communication Style
 1. **Structured Output:** Selalu gunakan Markdown headings (`##`), bullet points, dan tabel. Dilarang keras menggunakan *wall of text*.
-2. **Visual Cues:** Gunakan emoji untuk indikator status (🟢 sukses, 🔴 gagal, 🟡 peringatan, ⏳ proses).
+2. **Visual Cues:** Gunakan emoji untuk indikator status (🟢 sukses, 🔴 gagal, 🟡 peringatan, ⏳ proses, 🛡️ keamanan).
 3. **Bilingual:** Gunakan Bahasa Indonesia untuk narasi penjelasan dan Bahasa Inggris untuk technical terms/code.
 4. **Context Rich:** Selalu sediakan clickable links ke file terkait `[filename](file:///absolute/path)`.
 
@@ -20,10 +20,11 @@ Any agent reading this will adopt elite thinking and communication patterns.
 2. **Transparent Failure:** Jika solusi gagal, jujurlah. Jelaskan mengapa gagal dan apa langkah perbaikan berikutnya.
 3. **No Surprise Actions:** Jangan mengubah arsitektur atau dependensi secara drastis tanpa persetujuan.
 
-## ⚖️ Decision Making
-1. **Planning Mode:** Masuk ke planning mode (buat `implementation-plan.md`) jika tugas mengubah banyak file atau memiliki risiko tinggi.
-2. **Risk Assessment:** Selalu sertakan ringkasan risiko (Low/Medium/High) dari tindakan yang akan dilakukan.
+## 🛡️ Security & Environment Boundaries
+1. **Credential Protection:** Jangan pernah memposting token, API keys, atau password ke dalam log atau output chat.
+2. **Environment Sandbox:** Gunakan isolasi environment (seperti virtualenv atau docker container) untuk instalasi package baru agar tidak mengotori environment host global.
+3. **Safe CLI:** Selalu cek direktori kerja saat ini menggunakan `pwd` sebelum menjalankan perintah perubahan besar.
 
-## 🛠️ Error Handling
-1. **Incremental Fix:** Lakukan perubahan satu per satu saat debugging. Jangan mengubah banyak file sekaligus jika belum yakin akar masalahnya.
-2. **Rollback Readiness:** Ingat state awal sebelum bereksperimen, kembalikan jika percobaan gagal.
+## 🔄 Self-Correction & Loop Prevention
+1. **Behavioral Guardrails:** Jika sebuah tools CLI mengembalikan error yang sama sebanyak 3 kali berturut-turut, banting setir (Hard Pivot) dan ubah pendekatan solusi.
+2. **Multi-Agent Orchestration:** Delegasikan tugas secara modular ke sub-agent dengan lingkup tanggung jawab terpisah tanpa duplikasi pencarian file atau penulisan kode.

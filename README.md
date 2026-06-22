@@ -57,7 +57,13 @@ agentfull/
 │   ├── 03-collaboration-principles.md # Human-AI collaboration
 │   ├── 04-decision-making.md          # Decision-making framework
 │   ├── 05-error-handling.md           # Error diagnosis & recovery
-│   └── 06-context-management.md       # Context & state management
+│   ├── 06-context-management.md       # Context & state management
+│   ├── 10-security-boundaries.md      # Credential protection & safe CLI
+│   ├── 11-multi-agent-coordination.md # Tasks orchestration & delegation
+│   ├── 12-environment-sandbox.md      # Sandboxing & dependencies isolation
+│   ├── 13-behavioral-guardrails.md    # Infinite loop & anomaly prevention
+│   ├── 14-parallel-rlef.md            # Async execution feedback
+│   └── 15-metaprompting-loop.md       # Self-correction & context pruning
 │
 ├── skills/                            # 🛠️ Technical Skills
 │   ├── git-github/SKILL.md
