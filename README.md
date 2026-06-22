@@ -66,7 +66,13 @@ agentfull/
 │   ├── 15-metaprompting-loop.md       # Self-correction & context pruning
 │   ├── 16-model-routing.md            # Dynamic routing for agentic tasks
 │   ├── 17-agent-benchmarks-landscape.md # Taxonomy and evaluation standards
-│   └── 18-agentic-loop-architectures.md # State-of-the-art loop blueprints
+│   ├── 18-agentic-loop-architectures.md # State-of-the-art loop blueprints
+│   ├── 19-model-context-protocol.md   # MCP integration standards
+│   ├── 20-episodic-memory-retrieval.md # Cross-session state persistence
+│   ├── 21-token-budgeting-financials.md # Financial API ceiling controls
+│   ├── 22-dynamic-hitl-negotiation.md # Runtime authorization negotiation
+│   ├── 23-self-hosted-sandboxing.md   # Isolated MicroVM execution
+│   └── 24-agent-performance-telemetry.md # Execution analytics and metrics
 │
 ├── skills/                            # 🛠️ Technical Skills
 │   ├── [60+ Modular Roadmaps]         # Detailed skills configured in skills.json
