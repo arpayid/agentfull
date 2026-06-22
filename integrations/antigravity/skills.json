@@ -1,19 +1,172 @@
 {
   "entries": [
     {
+      "path": "skills/frontend"
+    },
+    {
+      "path": "skills/backend"
+    },
+    {
+      "path": "skills/full-stack"
+    },
+    {
+      "path": "skills/devops"
+    },
+    {
+      "path": "skills/devsecops"
+    },
+    {
+      "path": "skills/data-analyst"
+    },
+    {
+      "path": "skills/ai-engineer"
+    },
+    {
+      "path": "skills/ai-data-scientist"
+    },
+    {
+      "path": "skills/data-engineer"
+    },
+    {
+      "path": "skills/android"
+    },
+    {
+      "path": "skills/machine-learning"
+    },
+    {
+      "path": "skills/postgresql-dba"
+    },
+    {
+      "path": "skills/ios"
+    },
+    {
+      "path": "skills/blockchain"
+    },
+    {
+      "path": "skills/qa"
+    },
+    {
+      "path": "skills/software-architect"
+    },
+    {
+      "path": "skills/cyber-security"
+    },
+    {
+      "path": "skills/ux-design"
+    },
+    {
+      "path": "skills/technical-writer"
+    },
+    {
+      "path": "skills/game-developer"
+    },
+    {
+      "path": "skills/mlops"
+    },
+    {
+      "path": "skills/product-manager"
+    },
+    {
+      "path": "skills/engineering-manager"
+    },
+    {
+      "path": "skills/devrel"
+    },
+    {
+      "path": "skills/claude-code"
+    },
+    {
+      "path": "skills/vibe-coding"
+    },
+    {
+      "path": "skills/openclaw"
+    },
+    {
+      "path": "skills/leetcode"
+    },
+    {
+      "path": "skills/python"
+    },
+    {
+      "path": "skills/computer-science"
+    },
+    {
+      "path": "skills/sql"
+    },
+    {
+      "path": "skills/react"
+    },
+    {
+      "path": "skills/vue"
+    },
+    {
+      "path": "skills/angular"
+    },
+    {
+      "path": "skills/javascript"
+    },
+    {
+      "path": "skills/typescript"
+    },
+    {
+      "path": "skills/nodejs"
+    },
+    {
+      "path": "skills/system-design"
+    },
+    {
+      "path": "skills/java"
+    },
+    {
+      "path": "skills/api-design"
+    },
+    {
+      "path": "skills/rust"
+    },
+    {
+      "path": "skills/golang"
+    },
+    {
+      "path": "skills/graphql"
+    },
+    {
+      "path": "skills/prompt-engineering"
+    },
+    {
+      "path": "skills/linux"
+    },
+    {
+      "path": "skills/kubernetes"
+    },
+    {
+      "path": "skills/docker"
+    },
+    {
+      "path": "skills/aws"
+    },
+    {
+      "path": "skills/terraform"
+    },
+    {
+      "path": "skills/redis"
+    },
+    {
       "path": "skills/git-github"
     },
     {
-      "path": "skills/debugging"
+      "path": "skills/cloudflare"
     },
     {
-      "path": "skills/infrastructure"
+      "path": "skills/ai-red-teaming"
+    },
+    {
+      "path": "skills/ai-agents"
+    },
+    {
+      "path": "skills/nextjs"
     },
     {
       "path": "skills/code-review"
-    },
-    {
-      "path": "skills/project-management"
     }
   ]
 }

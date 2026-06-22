@@ -68,6 +68,7 @@ agentfull/
 │   └── 17-agent-benchmarks-landscape.md # Taxonomy and evaluation standards
 │
 ├── skills/                            # 🛠️ Technical Skills
+│   ├── [60+ Modular Roadmaps]         # Detailed skills configured in skills.json
 │   ├── git-github/SKILL.md
 │   ├── debugging/SKILL.md
 │   ├── infrastructure/SKILL.md
